@@ -1,0 +1,60 @@
+@Metadata.layer: #CORE
+
+
+
+annotate view YCDS_Travel_Projection with
+{
+
+
+
+  @UI.lineItem: [{ position: 10 }]
+  @UI.selectionField: [{ position: 10 }]
+  TravelId;
+
+  @UI.lineItem: [{ position: 20 }]
+  @UI.selectionField: [{ position: 20 }]
+  AgencyId;
+
+  @UI.lineItem: [{ position: 30 }]
+  @UI.selectionField: [{ position: 30 }]
+  CustomerId;
+
+  @UI.lineItem: [{ position: 40 }]
+  BeginDate;
+
+  @UI.lineItem: [{ position: 50 }]
+  EndDate;
+
+  @UI.lineItem: [{ position: 60 }]
+  @UI.selectionField: [{ position: 60 }]
+  BookingFee;
+
+  @UI.lineItem: [{ position: 70 }]
+  @UI.selectionField: [{ position: 70 }]
+  TotalPrice;
+
+  @UI.lineItem: [{ position: 80 }   ]
+  CurrencyCode;
+
+  @UI.lineItem: [{ position: 90 }]
+  @UI.selectionField: [{ position: 90 }]
+
+  Description;
+  @UI.lineItem: [{ position: 100 }]
+
+  @UI.selectionField: [{ position: 100 }]
+  OverallStatus;
+
+//  @UI.lineItem: [{ position: 110 }]
+//  CreatedBy;
+//
+//  @UI.lineItem: [{ position: 120 }]
+//  CreatedAt;
+//
+//  @UI.lineItem: [{ position: 130 }]
+//  LastChangedBy;
+//
+//  @UI.lineItem: [{ position: 140 }]
+//  LastChangedAt;
+
+}

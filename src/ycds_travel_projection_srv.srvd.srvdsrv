@@ -1,0 +1,4 @@
+@EndUserText.label: 'YCDS_TRAVEL_PROJECTION_SRV'
+define service YCDS_TRAVEL_PROJECTION_SRV {
+  expose YCDS_Travel_Projection;
+}
